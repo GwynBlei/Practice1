@@ -31,9 +31,11 @@ fun main(args: Array<String>) {
     print(age)
     exercisesSolved =+ exercisesSolved + 1;
     // задание 7
-    var answer1: Int = ( 46 * 100 ) + 10
-    var answer2: Int = ( 46 * 100 ) + ( 10 * 100)
-    var answer3: Int = ( 46 * 100 ) + ( 10 / 10)
+    val a: Int = 46
+    val b: Int = 10
+    var answer1: Int = ( a * 100 ) + b
+    var answer2: Int = ( a * 100 ) + ( b * 100)
+    var answer3: Int = ( a * 100 ) + ( b / 10)
     exercisesSolved =+ exercisesSolved + 1;
     // задание 8
     (5 * 3) - ((4 / 2) * 2)
